@@ -59,3 +59,9 @@
 	model.save('train.h5')
 	print(model.evaluate(X_test, y_test, verbose=0))
 # 實驗過程
+![image](https://github.com/106318143yenyuhsiang/HW2_Character_classification/blob/master/report2.JPG)
+# Kaggle排名
+
+# 分析
+
+# 檢討改進
