@@ -1,19 +1,19 @@
 # HW2_Character_classification
 # 引用相關套件
-   import os
-   from sklearn.cross_validation import train_test_split
-   from keras.models import Sequential, Model
-   from keras.layers import Dense, Conv2D, MaxPooling2D, Dropout, Flatten
-   import numpy as np
-   from keras import applications
-   import cv2
-   from keras.optimizers import SGD
-   from keras.utils import np_utils
-   from keras.preprocessing.image import ImageDataGenerator
+	import os
+	from sklearn.cross_validation import train_test_split
+	from keras.models import Sequential, Model
+	from keras.layers import Dense, Conv2D, MaxPooling2D, Dropout, Flatten
+	import numpy as np
+	from keras import applications
+	import cv2
+	from keras.optimizers import SGD
+	from keras.utils import np_utils
+	from keras.preprocessing.image import ImageDataGenerator
 # 創建圖片標籤的矩陣
-  images=[]
-  labels= []
-  listdir= []
+	images=[]
+	labels= []
+	listdir= []
 # 讀取訓練圖片
 def read_images_labels(path,i):
     for file in os.listdir(path):
