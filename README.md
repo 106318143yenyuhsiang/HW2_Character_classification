@@ -61,7 +61,7 @@
 # 實驗過程
 ![image](https://github.com/106318143yenyuhsiang/HW2_Character_classification/blob/master/report2.JPG)
 # Kaggle排名
-
+![image](https://github.com/106318143yenyuhsiang/HW2_Character_classification/blob/master/rank.JPG)
 # 分析
-
+	
 # 檢討改進
