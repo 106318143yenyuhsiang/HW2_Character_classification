@@ -63,5 +63,5 @@
 # Kaggle排名
 ![image](https://github.com/106318143yenyuhsiang/HW2_Character_classification/blob/master/rank.JPG)
 # 分析
-	
+	使用VGG包好的函式訓練,因為電腦是一般家用電腦,因此訓練一次模型就要使用超過半個小時的時間,因此使用保存權重再訓練的方式
 # 檢討改進
